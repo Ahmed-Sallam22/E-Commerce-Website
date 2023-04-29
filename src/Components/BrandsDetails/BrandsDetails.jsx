@@ -27,12 +27,11 @@ const [Brand, setBrandsDetails] = useState([])
     {Brand.length!==0?<div className="container"> 
 <div className="row justify-content-center text-center align-items-center">
     <div className="col-md-4 col-8 ">
-<img src={Brand.image} alt="" height={500}  className='w-100'/>
+<img src={Brand.image} alt="" className='w-100'/>
     </div>
 
     <div className="col-md-3">
     <h3 className='text-main'>Name Brand: {Brand.name}</h3>
-
     </div>
 </div>
 </div>
